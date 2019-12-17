@@ -1,0 +1,247 @@
+{
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  _closed: false,
+  _client:
+   CDPSession {
+     _events:
+      [Object: null prototype] {
+        'Fetch.requestPaused': [Function: bound _onRequestPaused],
+        'Fetch.authRequired': [Function: bound _onAuthRequired],
+        'Network.requestWillBeSent': [Function: bound _onRequestWillBeSent],
+        'Network.requestServedFromCache': [Function: bound _onRequestServedFromCache],
+        'Network.responseReceived': [Function: bound _onResponseReceived],
+        'Network.loadingFinished': [Function: bound _onLoadingFinished],
+        'Network.loadingFailed': [Function: bound _onLoadingFailed],
+        'Page.frameAttached': [Function],
+        'Page.frameNavigated': [Function],
+        'Page.navigatedWithinDocument': [Function],
+        'Page.frameDetached': [Function],
+        'Page.frameStoppedLoading': [Function],
+        'Runtime.executionContextCreated': [Function],
+        'Runtime.executionContextDestroyed': [Function],
+        'Runtime.executionContextsCleared': [Function],
+        'Page.lifecycleEvent': [Function],
+        'Target.attachedToTarget': [Function],
+        'Target.detachedFromTarget': [Function],
+        'Page.domContentEventFired': [Function],
+        'Page.loadEventFired': [Function],
+        'Runtime.consoleAPICalled': [Function],
+        'Runtime.bindingCalled': [Function],
+        'Page.javascriptDialogOpening': [Function],
+        'Runtime.exceptionThrown': [Function],
+        'Inspector.targetCrashed': [Function],
+        'Performance.metrics': [Function],
+        'Log.entryAdded': [Function],
+        'Page.fileChooserOpened': [Function] },
+     _eventsCount: 28,
+     _maxListeners: undefined,
+     _callbacks: Map {},
+     _connection:
+      Connection {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _url:
+         'ws://127.0.0.1:51287/devtools/browser/8c9a66d6-e6f0-41ca-bff0-bbe1662c498d',
+        _lastId: 19,
+        _callbacks: Map {},
+        _delay: 0,
+        _transport: [WebSocketTransport],
+        _sessions: [Map],
+        _closed: false },
+     _targetType: 'page',
+     _sessionId: '766B52EF06E90059035D3740ACA60558' },
+  _target:
+   Target {
+     _targetInfo:
+      { targetId: '49DA283A4349D0DBE808684A33B49D50',
+        type: 'page',
+        title: 'https://www.baidu.com',
+        url: 'https://www.baidu.com/',
+        attached: true,
+        browserContextId: '04ABC08BA673C28989B0A1D5AA8DC66B' },
+     _browserContext:
+      BrowserContext {
+        _events: [Object: null prototype] {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        _connection: [Connection],
+        _browser: [Browser],
+        _id: null },
+     _targetId: '49DA283A4349D0DBE808684A33B49D50',
+     _sessionFactory: [Function],
+     _ignoreHTTPSErrors: false,
+     _defaultViewport: { width: 800, height: 600 },
+     _screenshotTaskQueue: TaskQueue { _chain: [Promise] },
+     _pagePromise: Promise { [Circular] },
+     _workerPromise: null,
+     _initializedCallback: [Function],
+     _initializedPromise: Promise { true },
+     _closedCallback: [Function],
+     _isClosedPromise: Promise { <pending> },
+     _isInitialized: true },
+  _keyboard:
+   Keyboard {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '766B52EF06E90059035D3740ACA60558' },
+     _modifiers: 0,
+     _pressedKeys: Set {} },
+  _mouse:
+   Mouse {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '766B52EF06E90059035D3740ACA60558' },
+     _keyboard:
+      Keyboard { _client: [CDPSession], _modifiers: 0, _pressedKeys: Set {} },
+     _x: 0,
+     _y: 0,
+     _button: 'none' },
+  _timeoutSettings:
+   TimeoutSettings { _defaultTimeout: null, _defaultNavigationTimeout: null },
+  _touchscreen:
+   Touchscreen {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '766B52EF06E90059035D3740ACA60558' },
+     _keyboard:
+      Keyboard { _client: [CDPSession], _modifiers: 0, _pressedKeys: Set {} } },
+  _accessibility:
+   Accessibility {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '766B52EF06E90059035D3740ACA60558' } },
+  _frameManager:
+   FrameManager {
+     _events:
+      [Object: null prototype] {
+        [Symbol(Events.FrameManager.FrameAttached)]: [Function],
+        [Symbol(Events.FrameManager.FrameDetached)]: [Function],
+        [Symbol(Events.FrameManager.FrameNavigated)]: [Function] },
+     _eventsCount: 3,
+     _maxListeners: undefined,
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '766B52EF06E90059035D3740ACA60558' },
+     _page: [Circular],
+     _networkManager:
+      NetworkManager {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _client: [CDPSession],
+        _ignoreHTTPSErrors: false,
+        _frameManager: [Circular],
+        _requestIdToRequest: Map {},
+        _requestIdToRequestWillBeSentEvent: Map {},
+        _extraHTTPHeaders: {},
+        _offline: false,
+        _credentials: null,
+        _attemptedAuthentications: Set {},
+        _userRequestInterceptionEnabled: false,
+        _protocolRequestInterceptionEnabled: false,
+        _userCacheDisabled: false,
+        _requestIdToInterceptionId: Map {} },
+     _timeoutSettings:
+      TimeoutSettings { _defaultTimeout: null, _defaultNavigationTimeout: null },
+     _frames: Map { '49DA283A4349D0DBE808684A33B49D50' => [Frame] },
+     _contextIdToContext: Map { 3 => [ExecutionContext], 4 => [ExecutionContext] },
+     _isolatedWorlds: Set { '__puppeteer_utility_world__' },
+     _mainFrame:
+      Frame {
+        _frameManager: [Circular],
+        _client: [CDPSession],
+        _parentFrame: null,
+        _url: 'https://www.baidu.com/',
+        _id: '49DA283A4349D0DBE808684A33B49D50',
+        _detached: false,
+        _loaderId: 'D3F17000ED9ABE93D92AD649EA533C2E',
+        _lifecycleEvents: [Set],
+        _mainWorld: [DOMWorld],
+        _secondaryWorld: [DOMWorld],
+        _childFrames: Set {},
+        _name: undefined,
+        _navigationURL: 'https://www.baidu.com/' } },
+  _emulationManager:
+   EmulationManager {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '766B52EF06E90059035D3740ACA60558' },
+     _emulatingMobile: false,
+     _hasTouch: false },
+  _tracing:
+   Tracing {
+     _client:
+      CDPSession {
+        _events: [Object],
+        _eventsCount: 28,
+        _maxListeners: undefined,
+        _callbacks: Map {},
+        _connection: [Connection],
+        _targetType: 'page',
+        _sessionId: '766B52EF06E90059035D3740ACA60558' },
+     _recording: false,
+     _path: '' },
+  _pageBindings: Map {},
+  _coverage:
+   Coverage {
+     _jsCoverage:
+      JSCoverage {
+        _client: [CDPSession],
+        _enabled: false,
+        _scriptURLs: Map {},
+        _scriptSources: Map {},
+        _eventListeners: [],
+        _resetOnNavigation: false },
+     _cssCoverage:
+      CSSCoverage {
+        _client: [CDPSession],
+        _enabled: false,
+        _stylesheetURLs: Map {},
+        _stylesheetSources: Map {},
+        _eventListeners: [],
+        _resetOnNavigation: false } },
+  _javascriptEnabled: true,
+  _viewport: { width: 1000, height: 800 },
+  _screenshotTaskQueue: TaskQueue { _chain: Promise { undefined } },
+  _workers: Map {},
+  _fileChooserInterceptionIsDisabled: false,
+  _fileChooserInterceptors: Set {} }
